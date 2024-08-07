@@ -1,3 +1,4 @@
+# pip install numpy -> terminal
 import numpy as np
 
 list_a = [1,2,3,4]
