@@ -10,6 +10,12 @@ print(f"vector_a = {vector_a}")
 print(f"vector_a**2 = {vector_a ** 2}")
 print(f"vector_a*5 = {vector_a * 5}")
 
+# Matrix declaration with list comprehension
+# N -> row, M -> column => (NxM)
+"""<variable_name> = [[<default_value> for j in range (<m>)] for i in range(<n>)]"""
+matrix_a = [[0 for _ in range(2)] for _ in range(3)]
+print(f"matrix_a = \n{matrix_a}")
+
 matrix_b = np.array([(1,2),(3,4)])
 print(f"matrix_b = \n{matrix_b}")
 print(f"matrix_b**2= \n{matrix_b ** 2}")
@@ -30,6 +36,8 @@ list_a = [1, 2, 3, 4]
 vector_a = [1 2 3 4]
 vector_a**2 = [ 1  4  9 16]
 vector_a*5 = [ 5 10 15 20]
+matrix_a = 
+[[0, 0], [0, 0], [0, 0]]
 matrix_b = 
 [[1 2]
  [3 4]]
