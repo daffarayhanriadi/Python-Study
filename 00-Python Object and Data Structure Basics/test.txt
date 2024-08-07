@@ -1,2 +1,2 @@
-First Line
-Second Line
+This is an example of writing to a file.
+Append a new line to the file.
