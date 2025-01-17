@@ -16,7 +16,7 @@
 # TODO-5: Detect collision with wall and bounce
 # TODO-6: Detect collision with paddle
 # TODO-7: Detect when paddle misses
-# TODo-8: Keep score
+# TODo-8: Keep score and changing the ball's speed
 
 from turtle import Screen
 from paddle import Paddle
