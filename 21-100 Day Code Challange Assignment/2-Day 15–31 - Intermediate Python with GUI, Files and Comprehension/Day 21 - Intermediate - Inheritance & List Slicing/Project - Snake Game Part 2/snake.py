@@ -1,4 +1,4 @@
-import turtle as t
+from turtle import Turtle
 
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE = 20
@@ -19,7 +19,7 @@ class Snake:
             self.add_segment(position)
 
     def add_segment(self, position):
-        new_segment = t.Turtle("square")
+        new_segment = Turtle("square")
         new_segment.color("white")
         new_segment.penup()
         new_segment.goto(position)
