@@ -16,3 +16,4 @@ with open("./Input/Names/invited_names.txt", "r") as invited_names_file:
             for sentence in letter_sentences:
                 with open(f"./Output/ReadyToSend/letter_for_{name}.txt", "a") as output_file:
                     output_file.write(f"{sentence.replace("[name]", name)}")
+                    # Uncle Iroh -> U Iroh
