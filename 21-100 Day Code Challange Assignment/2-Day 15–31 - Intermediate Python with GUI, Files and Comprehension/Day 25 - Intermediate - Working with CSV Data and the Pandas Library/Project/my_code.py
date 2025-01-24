@@ -49,4 +49,4 @@ while is_not_over:
 # t.onscreenclick(get_mouse_click_coor)
 
 # t.mainloop()
-# screen.exitonclick()# screen.exitonclick()
+# screen.exitonclick()
