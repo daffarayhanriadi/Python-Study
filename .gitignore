@@ -12725,3 +12725,17 @@
 .venv/Lib/site-packages/tzdata/zones
 .venv/Scripts/f2py.exe
 .venv/Scripts/numpy-config.exe
+.venv/Lib/site-packages/pip-25.0.dist-info/AUTHORS.txt
+.venv/Lib/site-packages/pip-25.0.dist-info/entry_points.txt
+.venv/Lib/site-packages/pip-25.0.dist-info/INSTALLER
+.venv/Lib/site-packages/pip-25.0.dist-info/LICENSE.txt
+.venv/Lib/site-packages/pip-25.0.dist-info/METADATA
+.venv/Lib/site-packages/pip-25.0.dist-info/RECORD
+.venv/Lib/site-packages/pip-25.0.dist-info/REQUESTED
+.venv/Lib/site-packages/pip-25.0.dist-info/top_level.txt
+.venv/Lib/site-packages/pip-25.0.dist-info/WHEEL
+.venv/Lib/site-packages/pip/_vendor/packaging/licenses/__init__.py
+.venv/Lib/site-packages/pip/_vendor/packaging/licenses/__pycache__/__init__.cpython-312.pyc
+.venv/Lib/site-packages/pip/_vendor/packaging/licenses/__pycache__/_spdx.cpython-312.pyc
+.venv/Lib/site-packages/pip/_vendor/packaging/licenses/_spdx.py
+.venv/Lib/site-packages/pip/_vendor/pyproject_hooks/py.typed
