@@ -11,13 +11,13 @@ window.title("My First GUI Program")
 window.minsize(width=500, height=300)
 window.config(padx=100, pady=200)
 
-# Labels (Component)
+# Labels Widget
 my_label = tk.Label(text="I Am a label", font=("Arial", 24, "bold"))
 my_label.config(text="New Text")
 my_label.grid(column=0, row=0)
 my_label.config(padx=50, pady=50)
 
-# Buttons (Component)
+# Buttons Widget
 button = tk.Button(text="Click Me", command=button_clicked)
 button.grid(column=1, row=1)
 
@@ -28,7 +28,7 @@ button and aligned with the component label"""
 new_button = tk.Button(text="New Button")
 new_button.grid(column=2, row=0)
 
-# Entries (Component)
+# Entries Widget
 entry = tk.Entry(width=10)
 print(entry.get())
 entry.grid(column=3, row=2)
