@@ -5,16 +5,16 @@ window = tk.Tk()
 window.title("My First GUI Program")
 window.minsize(width=500, height=300)
 
-#* Labels (Component)
+#* Labels Widget
 label = tk.Label(text="I Am a label", font=("Arial", 24, "bold"))
 # my_label.pack(side="left")
 label.pack()
 
-# We can set options (components/properties that we have created)
+# We can set options (widget/properties that we have created)
 label["text"] = "New Text"
 label.config(text="New Text")
 
-#* Buttons (Component)
+#* Buttons Widget
 # Challenge-2
 """
 Show "Button Got Clicked" on my_label when the button get's clicked.
@@ -36,7 +36,7 @@ Figure out how to get whatever is written in Entry to be the text in
 the Label. The moment is when we click on the Button. 
 """
 
-#* Entries (Component)
+#* Entries Widget
 entry = tk.Entry(width=30)
 # Add some text to begin with
 entry.insert(tk.END, string="Some text to begin with.")
@@ -45,7 +45,7 @@ print(entry.get())
 entry.pack()
 
 
-#* Text (Component)
+#* Text Widget
 text = tk.Text(height=5, width=30)
 # Puts cursor in textbox
 text.focus()
@@ -56,7 +56,7 @@ print(text.get("1.0", tk.END))
 text.pack()
 
 
-#* Spinbox (Component)
+#* Spinbox Widget
 def spinbox_used():
     # Gets the current value in spinbox
     print(spinbox.get())
@@ -66,7 +66,7 @@ spinbox = tk.Spinbox(from_=0, to=10, width=5, command=spinbox_used)
 spinbox.pack()
 
 
-#* Scale (Component)
+#* Scale Widget
 def scale_used(value):
     print(value)
     
@@ -75,7 +75,7 @@ scale = tk.Scale(from_=0, to=100, command=scale_used)
 scale.pack()
 
 
-#* Check Button (Component)
+#* Check Button Widget
 def checkbutton_used():
     # Prints 1 if ON button checked, otherwise 0
     print(checked_state.get())
@@ -88,7 +88,7 @@ checked_state.get()
 checkbutton.pack()
 
 
-#* Radio Button (Component)
+#* Radio Button Widget
 def radio_used():
     print(radio_state.get())
     
@@ -100,7 +100,7 @@ radiobutton1.pack()
 radiobutton2.pack()
 
 
-#* List Box
+#* List Box Widget
 def listbox_used(event): # The event parameter is used
     # Gets current selection from listbox
     print(listbox.get(listbox.curselection()))
