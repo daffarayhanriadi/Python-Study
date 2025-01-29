@@ -70,6 +70,14 @@ def start_timer():
 
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
+## Wrong
+# import time
+
+# count = 5
+# while True:
+#     time.sleep(1)
+#     count -= 1
+## Solution
 def count_down(count):
     count_min = math.floor(count / 60)
     count_sec = count % 60
