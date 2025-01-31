@@ -100,7 +100,6 @@ def save():
                 data_file.write(f"{website} | {email} | {password}\n")
 
             website_entry.delete(0, tk.END)
-            email_entry.delete(0, tk.END)
             password_entry.delete(0, tk.END)
 
 
