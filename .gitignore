@@ -12739,3 +12739,15 @@
 .venv/Lib/site-packages/pip/_vendor/packaging/licenses/__pycache__/_spdx.cpython-312.pyc
 .venv/Lib/site-packages/pip/_vendor/packaging/licenses/_spdx.py
 .venv/Lib/site-packages/pip/_vendor/pyproject_hooks/py.typed
+.venv/Lib/site-packages/pyperclip-1.9.0.dist-info/AUTHORS.txt
+.venv/Lib/site-packages/pyperclip-1.9.0.dist-info/INSTALLER
+.venv/Lib/site-packages/pyperclip-1.9.0.dist-info/LICENSE.txt
+.venv/Lib/site-packages/pyperclip-1.9.0.dist-info/METADATA
+.venv/Lib/site-packages/pyperclip-1.9.0.dist-info/RECORD
+.venv/Lib/site-packages/pyperclip-1.9.0.dist-info/REQUESTED
+.venv/Lib/site-packages/pyperclip-1.9.0.dist-info/top_level.txt
+.venv/Lib/site-packages/pyperclip-1.9.0.dist-info/WHEEL
+.venv/Lib/site-packages/pyperclip/__init__.py
+.venv/Lib/site-packages/pyperclip/__main__.py
+.venv/Lib/site-packages/pyperclip/__pycache__/__init__.cpython-312.pyc
+.venv/Lib/site-packages/pyperclip/__pycache__/__main__.cpython-312.pyc
